@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 75vw;
+  height: 98vh;
+}
+.container .navbar {
+  margin-top: 1rem;
+}
+.container .navbar .nav-unorderedList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .navbar .nav-unorderedList .ListItem {
+  list-style: none;
+  padding: 0.7rem 0.5rem;
+}
+.container .navbar .nav-unorderedList .ListItem .Link {
+  text-decoration: none;
+  padding: 0.7rem;
+  font-size: 1.3rem;
+  color: rgb(52, 153, 248);
+  border: 1px solid rgb(62, 176, 252);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.container .navbar .nav-unorderedList .ListItem .Link:hover {
+  background-color: rgb(29, 143, 250);
+  color: white;
+}
+.container .Login-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .signUp-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .todo-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .dropDown-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=App.css.map */
